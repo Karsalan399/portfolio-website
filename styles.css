@@ -80,3 +80,44 @@ body {
 .floating-btn:hover {
     transform: scale(1.2);
 }
+#projects {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #121212;
+    color: white;
+}
+
+.project-card {
+    display: inline-block;
+    width: 300px;
+    background: #1e1e1e;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 0 5px 15px rgba(255, 255, 255, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+}
+
+.project-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 10px;
+    background: #e50914;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background: #ff1e2d;
+}
